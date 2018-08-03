@@ -105,3 +105,13 @@ a {
     color: #11939a;
     text-decoration: none;
 }
+
+.other-inputs {
+    padding: 2%;
+    width: 95%;
+}
+
+.footer-text {
+    font-size: 80%;
+	padding-top: 3%;
+}
