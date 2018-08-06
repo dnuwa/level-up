@@ -113,3 +113,19 @@ a {
     font-size: 80%;
 	padding-top: 3%;
 }
+
+@media screen and (min-width: 800px) {
+    /* desktop styling */
+    .logo {
+        background-color: black;
+        color: #ffffff;
+        padding: 30px;
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 25px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
