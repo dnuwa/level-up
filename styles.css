@@ -67,16 +67,19 @@ body {
     padding-top: 4%;
 }
 
-.inner-input {
-    width: 99%;
-    padding-top: 3%;
-    padding-bottom: 3%;
+input {
+    width: 96%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 3%;
+    display: flex;
 }
 
-input {
-    width: 100%;
-    padding-top: 3%;
-    padding-bottom: 3%;
+.name-input {
+    width: 95%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 3%;
 }
 
 button {
@@ -104,14 +107,13 @@ a {
     text-decoration: none;
 }
 
-.other-inputs {
-    padding: 2%;
-    width: 95%;
-}
-
 .footer-text {
     font-size: 80%;
-	padding-top: 3%;
+    padding-top: 3%;
+}
+
+.contact {
+    display: flex;
 }
 
 @media screen and (min-width: 800px) {

@@ -4,7 +4,7 @@
 <head>
     <title>UBER</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
@@ -17,35 +17,39 @@
             <form>
                 <div class="inner-container">
                     <div class="first-div">
-                        <div class="label">First name (required)</div>
-                        <div><input class="inner-input" type="text" placeholder="First name"></div>
+                        <label class="label">First name (required)</label>
+                        <input class="name-input" type="text" placeholder="First name">
                     </div>
                     <div class="second-div">
-                        <div class="label">Last name (required)</div>
-                        <div><input type="text" placeholder="Last name"></div>
+                        <label class="label">Last name (required)</label>
+                        <input class="name-input" type="text" placeholder="Last name">
                     </div>
                 </div>
                 <div class="second-inner-container">
-                    <div class="label">
-                        <label>Enter your phone number(required)</label>
+
+                    <label class="label">Enter your phone number(required)</label>
+                    <div class="contact">
+                        <select>
+                                <option value="+256">+256 </option>
+                                <option value= "+251">+251 </option>
+                                <option value="+254">+254 </option>
+                                
+                            </select>
+                        <input type="" name="" placeholder="Phone number">
 
                     </div>
-                    <div>
-                        <input input class="other-inputs" type="" name="" placeholder="Phone number">
-                    </div>
-                    <div class="label">
-                        <label>Enter your email (required)</label>
 
-                    </div>
-                    <div>
-                        <input input class="other-inputs" type="" name="" placeholder="Email">
-                    </div>
-                    <div class="label">
-                        <label>Enter a password (required)</label>
+                    <label class="label">Enter your email (required)</label>
 
-                    </div>
                     <div>
-                        <input input class="other-inputs" type="" name="" placeholder="Password">
+                        <input type="" name="" placeholder="Email">
+                    </div>
+
+                    <label class="label">Enter a password (required)</label>
+
+
+                    <div>
+                        <input type="" name="" placeholder="Password">
                     </div>
                     <div class="promo">
                         <a href="#">Add a promo code</a>
