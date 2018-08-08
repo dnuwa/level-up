@@ -9,18 +9,18 @@ class Signup():
 
     def combined_name(self):
         if not (self.first_name and self.last_name):
-            print ('first name and last name fields can not be empty')
+            return {'response':'first name and last name fields can not be empty'}
         else:
-            print(self.first_name+" " + self.last_name)
+            return {self.first_name+" " + self.last_name}
 
     def submit(self):
         if not (self.first_name and self.last_name):
-            print ('first name and last name fields can not be empty')
+            return {'response':'first name and last name fields can not be empty'}
         else:
             self.users = {'first_name': self.first_name,
                         'last_name': self.last_name, 'email': self.email_address}
             self.database.append(self.users)
-            print(self.database)
+            return self.database
 
 
     @staticmethod
