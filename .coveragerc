@@ -4,4 +4,3 @@ source=
 omit=
     ./venv/*
     /__pycache__/
-    /home/*
