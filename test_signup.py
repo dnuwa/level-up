@@ -4,7 +4,7 @@ from signup import Signup
 class TestSignup(unittest.TestCase):
     def setUp(self):
         self.user1 = Signup('daniel', 'nuwa', 'daniel@gmail.com')
-        self.user2 = Signup('jose','bugingo', 'jose@gmail.com')
+        self.user2 = Signup('jose','bugingo', 'jose@gmail.com')        
 
     def test_class_created(self):
         self.assertIsInstance(self.user1, Signup)
@@ -22,5 +22,9 @@ class TestSignup(unittest.TestCase):
         result = self.user1.validate_email('daniel@gmail.com')
         self.assertTrue(result)
 
-if __name__ =='__main__':
-    unittest.main()
+    def test_validate_email_returns_false(self):
+        result = self.user1.validate_email('daniel@gmailcom')
+        self.assertFalse(result)
+
+   
+        
