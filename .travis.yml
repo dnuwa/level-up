@@ -9,8 +9,8 @@ install:
   
  
 script: 
-  - nosetests --with-coverage
+  - coverage run -m pytest
   - coverage report
  
 after_success:
-  
+  - coveralls
