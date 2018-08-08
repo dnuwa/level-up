@@ -1,0 +1,6 @@
+[run]
+source=
+    ./level-up
+omit=
+    ./venv/*
+    /__pycache__/
