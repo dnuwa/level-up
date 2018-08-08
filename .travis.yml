@@ -9,7 +9,7 @@ install:
   
  
 script: 
-  - nosetests --with-coverage --cover-package level-up
+  - coverage run -m pytest
   - coverage report
  
 after_success:
